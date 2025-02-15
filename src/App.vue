@@ -2,7 +2,7 @@
 
 const z = {
   data() {
-    x: true
+    return {x: true}    
   },
 }
 
