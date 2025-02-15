@@ -5,6 +5,7 @@
 
 <template>
  <h1> hello!!!!!!!!!! </h1>
+ <p>Вот так!!! </p>
 </template>
 
 
