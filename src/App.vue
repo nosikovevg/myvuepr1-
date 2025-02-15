@@ -1,8 +1,8 @@
 <script>
 
-const z = {
+export default {
   data() {
-    return {x: "true"}    
+    return {x: true}    
   },
 }
 
@@ -13,7 +13,7 @@ const z = {
  <h1> hello!!!!!!!!!! </h1>
  <p>Вот так!!! </p>
  <p1> Получилось!!! </p1>
- <p2 v-show="false"> невидимка </p2>
+ <p2 v-show="true"> невидимка </p2>
  <p3 v-show="x"> невидимка еще одна </p3>
 </template>
 
