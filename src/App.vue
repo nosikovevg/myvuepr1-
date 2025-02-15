@@ -31,7 +31,7 @@ p2 {
   }
 
 p3 {
-  color:pink;
+  color: brown;
   }
 
 </style>
