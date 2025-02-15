@@ -27,7 +27,7 @@ jobs:
 
       #Build
       - run: npm ci
-      - run: npm build
+      - run: npm run build
       
       # Deploy
       - run: cd dist && rsync -e "ssh -i $HOME/.ssh/key -o StrictHostKeyChecking=no" --archive --compress --delete . ${{ env.SERVER_USER }}@${{ env.SERVER_HOST }}:${{ env.SERVER_PATH }}
