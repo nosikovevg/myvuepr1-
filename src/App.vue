@@ -1,5 +1,11 @@
 <script>
 
+const z = {
+  data() {
+    x: true
+  },
+}
+
 </script>
 
 
@@ -8,6 +14,7 @@
  <p>Вот так!!! </p>
  <p1> Получилось!!! </p1>
  <p2 v-show="false"> невидимка </p2>
+ <p3 v-show="x"> невидимка еще одна </p3>
 </template>
 
 
@@ -23,5 +30,8 @@ p2 {
   color:blue;
   }
 
+p3 {
+  color:pink;
+  }
 
 </style>
