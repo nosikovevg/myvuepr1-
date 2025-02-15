@@ -15,6 +15,8 @@ export default {
  <p1> Получилось!!! </p1>
  <p2 v-show="true"> невидимка </p2>
  <p3 v-show="x"> невидимка еще одна </p3>
+ <br/>
+ <button v-on:click="x=!x"> кнопка </button>
 </template>
 
 
